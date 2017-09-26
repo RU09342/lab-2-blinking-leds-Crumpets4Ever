@@ -1,0 +1,44 @@
+#include <msp430.h> 
+
+
+/**
+ * main.c
+ */
+int main(void)
+{
+    WDTCTL = WDTPW | WDTHOLD;   // stop watchdog timer
+    //Button I am using is port 5.6
+    //LED I am using is port 1.0
+    P1DIR &= ~BIT1; //Set the pin direction to I/O
+    P1REN |= BIT1; //Enables the pullup/down resistor
+    P1OUT |= BIT1; //Set the resistor to be a pulldown resistor
+
+    PM5CTL0 &= ~LOCKLPM5;                   // Disable the GPIO power-on default high-impedance mode
+                                            // to activate previously configured port settings
+
+     P2OUT &= ~BIT0;                         // Clear P2.0 output latch for a defined power-on state
+        //Pin2, LED2, is set to low output
+    P2DIR |= BIT0;                          // Set P2.0 to output direction
+        //Pin2, LED2 is set to be an output
+    P1OUT &= ~BIT0;                         // Clear P2.0 output latch for a defined power-on state
+        //Pin1, LED1, is set to low output
+    P1DIR |= BIT0;                          // Set P2.0 to output direction
+        //Pin1, LED1 is set to be an output
+    while(1)
+    {
+        if(P1IN==BIT1)
+        {
+            P1OUT ^= BIT0;
+            P2OUT &= ~BIT0;
+            __delay_cycles(100000);
+        }
+        if(P1IN!=BIT1)
+        {
+            P2OUT ^= BIT0;
+            P1OUT &= ~BIT0;
+           __delay_cycles(100000);
+        }
+
+    }
+
+}

@@ -1,0 +1,45 @@
+#include <msp430.h>
+
+int main(void)
+{
+    WDTCTL = WDTPW | WDTHOLD;               // Stop WDT
+
+    // Configure GPIO
+    P1OUT &= ~BIT0;                         // Clear P1.0 output latch for a defined power-on state
+    P1DIR |= BIT0;                          // Set P1.0 to output direction
+    P1OUT &= ~BIT1;                         // Clear P1.0 output latch for a defined power-on state
+    P1DIR |= BIT1;
+    P1OUT &= ~BIT3;                         // Clear P1.0 output latch for a defined power-on state
+    P1DIR |= BIT3;
+
+                                            // to activate previously configured port settings
+    unsigned int i;
+    unsigned int j;
+    unsigned int k;
+    while(1)
+    {
+        if(i>5000)
+        {
+            P1OUT ^= BIT0;
+            i=0;
+        }
+       if(j>15000)
+       {
+           P1OUT ^= BIT1; // Toggle LED
+           j=0;
+       }
+       if(k>45000)
+       {
+          P1OUT ^= BIT3; // Toggle LED
+          k=0;
+       }
+       if(k>45000)
+          {
+             P1OUT ^= BIT3; // Toggle LED
+             k=0;
+          }
+        i++;
+        j++;
+        k++;
+    }
+}

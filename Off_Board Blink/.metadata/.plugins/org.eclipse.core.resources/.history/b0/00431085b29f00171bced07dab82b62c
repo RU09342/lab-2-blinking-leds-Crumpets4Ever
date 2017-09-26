@@ -1,0 +1,13 @@
+#include <msp430.h>
+
+int main(void) {
+    WDTCTL = WDTPW | WDTHOLD;     // Stop watchdog timer
+
+    P1DIR &= 0x00;                // reseting the P1DIR register
+    P1OUT &= 0x00;                // reseting the P1OUT register
+
+    P1DIR |= BIT4;                // setting the P1DIR register to 0x10
+    P1OUT |= BIT4;                // setting the P1OUT register to 0x10
+
+    return 0;
+}

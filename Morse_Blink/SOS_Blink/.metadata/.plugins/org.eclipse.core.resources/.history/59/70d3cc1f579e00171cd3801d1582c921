@@ -1,0 +1,307 @@
+#include <msp430.h> 
+
+
+/**
+ * main.c
+ */
+int main(void)
+{
+    WDTCTL = WDTPW | WDTHOLD;   // stop watchdog timer
+       //Button I am using is port 5.6
+       //LEDs I am using are ports 1.0 and 4.7
+       //P1SEL &= ~BIT1; //Set the button pin to I/O
+       P1DIR &= ~BIT1; //Sets button2, pin1.2 as an input
+       P1REN |=  BIT1; //Enables the pullup/down resistor
+       P1OUT |=  BIT1; //Set the resistor to be a pullup resistor
+
+       //PM5CTL0 &= ~LOCKLPM5;                   // Disable the GPIO power-on default high-impedance mode
+                                               // to activate previously configured port settings
+       P1DIR |= BIT0; //sets the direction of pin 1 to output
+       P1OUT &= ~BIT0; //sets output high
+       P4DIR |= BIT7; //sets the direction of pin 1 to output
+       P4OUT &= ~BIT7; //sets output high
+
+       int count;
+       count = 0;
+       volatile unsigned int i;
+
+       while(1)
+          {
+           if(P1IN==BIT1)
+               {
+                   count++;
+               }
+              switch(count)
+              {
+              case 0:
+                  P4OUT ^= BIT7;        //-
+                  for(i=90000;i>0;i--);
+                  P4OUT ^= BIT7;
+                  for(i=30000;i>0;i--);
+                  P4OUT ^= BIT7;        //-
+                  for(i=90000;i>0;i--);
+                  P4OUT ^= BIT7;
+                  for(i=30000;i>0;i--);
+                  P4OUT ^= BIT7;        //-
+                  for(i=90000;i>0;i--);
+                  P4OUT ^= BIT7;
+                  for(i=30000;i>0;i--);
+                  P4OUT ^= BIT7;        //-
+                  for(i=90000;i>0;i--);
+                  P4OUT ^= BIT7;
+                  for(i=30000;i>0;i--);
+                  P4OUT ^= BIT7;        //-
+                  for(i=90000;i>0;i--);
+                  P4OUT ^= BIT7;
+                  for(i=30000;i>0;i--);
+                  P4OUT &= ~BIT7;       //break
+                  __delay_cycles(210000);
+               break;
+              case 1:
+              P4OUT ^= BIT7;        //.
+              for(i=30000;i>0;i--);
+              P4OUT ^= BIT7;
+              for(i=30000;i>0;i--);
+              P4OUT ^= BIT7;        //-
+              for(i=90000;i>0;i--);
+              P4OUT ^= BIT7;
+              for(i=30000;i>0;i--);
+              P4OUT ^= BIT7;        //-
+              for(i=90000;i>0;i--);
+              P4OUT ^= BIT7;
+              for(i=30000;i>0;i--);
+              P4OUT ^= BIT7;        //-
+              for(i=90000;i>0;i--);
+              P4OUT ^= BIT7;
+              for(i=30000;i>0;i--);
+              P4OUT ^= BIT7;        //-
+              for(i=90000;i>0;i--);
+              P4OUT ^= BIT7;
+              for(i=30000;i>0;i--);
+              P4OUT &= ~BIT7;       //break
+              __delay_cycles(210000);
+            break;
+              case 2:
+              P4OUT ^= BIT7;        //.
+              for(i=30000;i>0;i--);
+              P4OUT ^= BIT7;
+              for(i=30000;i>0;i--);
+              P4OUT ^= BIT7;        //.
+              for(i=30000;i>0;i--);
+              P4OUT ^= BIT7;
+              for(i=30000;i>0;i--);
+              P4OUT ^= BIT7;        //-
+              for(i=90000;i>0;i--);
+              P4OUT ^= BIT7;
+              for(i=30000;i>0;i--);
+              P4OUT ^= BIT7;        //-
+              for(i=90000;i>0;i--);
+              P4OUT ^= BIT7;
+              for(i=30000;i>0;i--);
+              P4OUT ^= BIT7;        //-
+              for(i=90000;i>0;i--);
+              P4OUT ^= BIT7;
+              for(i=30000;i>0;i--);
+              P4OUT &= ~BIT7;       //break
+              __delay_cycles(210000);
+            break;
+              case 3:
+              P4OUT ^= BIT7;        //.
+              for(i=30000;i>0;i--);
+              P4OUT ^= BIT7;
+              for(i=30000;i>0;i--);
+              P4OUT ^= BIT7;        //.
+              for(i=30000;i>0;i--);
+              P4OUT ^= BIT7;
+              for(i=30000;i>0;i--);
+              P4OUT ^= BIT7;        //.
+              for(i=30000;i>0;i--);
+              P4OUT ^= BIT7;
+              for(i=30000;i>0;i--);
+              P4OUT ^= BIT7;        //-
+              for(i=90000;i>0;i--);
+              P4OUT ^= BIT7;
+              for(i=30000;i>0;i--);
+              P4OUT ^= BIT7;        //-
+              for(i=90000;i>0;i--);
+              P4OUT ^= BIT7;
+              for(i=30000;i>0;i--);
+              P4OUT &= ~BIT7;       //break
+              __delay_cycles(210000);
+            break;
+              case 4:
+              P4OUT ^= BIT7;        //.
+              for(i=30000;i>0;i--);
+              P4OUT ^= BIT7;
+              for(i=30000;i>0;i--);
+              P4OUT ^= BIT7;        //.
+              for(i=30000;i>0;i--);
+              P4OUT ^= BIT7;
+              for(i=30000;i>0;i--);
+              P4OUT ^= BIT7;        //.
+              for(i=30000;i>0;i--);
+              P4OUT ^= BIT7;
+              for(i=30000;i>0;i--);
+              P4OUT ^= BIT7;        //.
+              for(i=30000;i>0;i--);
+              P4OUT ^= BIT7;
+              for(i=30000;i>0;i--);
+              P4OUT ^= BIT7;        //-
+              for(i=90000;i>0;i--);
+              P4OUT ^= BIT7;
+              for(i=30000;i>0;i--);
+              P4OUT &= ~BIT7;       //break
+              __delay_cycles(210000);
+            break;
+              case 5:
+              P4OUT ^= BIT7;        //.
+              for(i=30000;i>0;i--);
+              P4OUT ^= BIT7;
+              for(i=30000;i>0;i--);
+              P4OUT ^= BIT7;        //.
+              for(i=30000;i>0;i--);
+              P4OUT ^= BIT7;
+              for(i=30000;i>0;i--);
+              P4OUT ^= BIT7;        //.
+              for(i=30000;i>0;i--);
+              P4OUT ^= BIT7;
+              for(i=30000;i>0;i--);
+              P4OUT ^= BIT7;        //.
+              for(i=30000;i>0;i--);
+              P4OUT ^= BIT7;
+              for(i=30000;i>0;i--);
+              P4OUT ^= BIT7;        //.
+              for(i=30000;i>0;i--);
+              P4OUT ^= BIT7;
+              for(i=30000;i>0;i--);
+              P4OUT &= ~BIT7;       //break
+              __delay_cycles(210000);
+            break;
+              case 6:
+              P4OUT ^= BIT7;        //-
+              for(i=90000;i>0;i--);
+              P4OUT ^= BIT7;
+              for(i=30000;i>0;i--);
+              P4OUT ^= BIT7;        //.
+              for(i=30000;i>0;i--);
+              P4OUT ^= BIT7;
+              for(i=30000;i>0;i--);
+              P4OUT ^= BIT7;        //.
+              for(i=30000;i>0;i--);
+              P4OUT ^= BIT7;
+              for(i=30000;i>0;i--);
+              P4OUT ^= BIT7;        //.
+              for(i=30000;i>0;i--);
+              P4OUT ^= BIT7;
+              for(i=30000;i>0;i--);
+              P4OUT ^= BIT7;        //.
+              for(i=30000;i>0;i--);
+              P4OUT ^= BIT7;
+              for(i=30000;i>0;i--);
+              P4OUT &= ~BIT7;       //break
+              __delay_cycles(210000);
+            break;
+              case 7:
+              P4OUT ^= BIT7;        //-
+              for(i=90000;i>0;i--);
+              P4OUT ^= BIT7;
+              for(i=30000;i>0;i--);
+              P4OUT ^= BIT7;        //-
+              for(i=90000;i>0;i--);
+              P4OUT ^= BIT7;
+              for(i=30000;i>0;i--);
+              P4OUT ^= BIT7;        //.
+              for(i=30000;i>0;i--);
+              P4OUT ^= BIT7;
+              for(i=30000;i>0;i--);
+              P4OUT ^= BIT7;        //.
+              for(i=30000;i>0;i--);
+              P4OUT ^= BIT7;
+              for(i=30000;i>0;i--);
+              P4OUT ^= BIT7;        //.
+              for(i=30000;i>0;i--);
+              P4OUT ^= BIT7;
+              for(i=30000;i>0;i--);
+              P4OUT &= ~BIT7;       //break
+              __delay_cycles(210000);
+            break;
+              case 8:
+              P4OUT ^= BIT7;        //-
+              for(i=90000;i>0;i--);
+              P4OUT ^= BIT7;
+              for(i=30000;i>0;i--);
+              P4OUT ^= BIT7;        //-
+              for(i=90000;i>0;i--);
+              P4OUT ^= BIT7;
+              for(i=30000;i>0;i--);
+              P4OUT ^= BIT7;        //-
+              for(i=90000;i>0;i--);
+              P4OUT ^= BIT7;
+              for(i=30000;i>0;i--);
+              P4OUT ^= BIT7;        //.
+              for(i=30000;i>0;i--);
+              P4OUT ^= BIT7;
+              for(i=30000;i>0;i--);
+              P4OUT ^= BIT7;        //.
+              for(i=30000;i>0;i--);
+              P4OUT ^= BIT7;
+              for(i=30000;i>0;i--);
+              P4OUT &= ~BIT7;       //break
+              __delay_cycles(210000);
+            break;
+              case 9:
+              P4OUT ^= BIT7;        //-
+              for(i=90000;i>0;i--);
+              P4OUT ^= BIT7;
+              for(i=30000;i>0;i--);
+              P4OUT ^= BIT7;        //-
+              for(i=90000;i>0;i--);
+              P4OUT ^= BIT7;
+              for(i=30000;i>0;i--);
+              P4OUT ^= BIT7;        //-
+              for(i=90000;i>0;i--);
+              P4OUT ^= BIT7;
+              for(i=30000;i>0;i--);
+              P4OUT ^= BIT7;        //-
+              for(i=90000;i>0;i--);
+              P4OUT ^= BIT7;
+              for(i=30000;i>0;i--);
+              P4OUT ^= BIT7;        //.
+              for(i=30000;i>0;i--);
+              P4OUT ^= BIT7;
+              for(i=30000;i>0;i--);
+              P4OUT &= ~BIT7;       //break
+              __delay_cycles(210000);
+            break;
+              case 10:
+              P4OUT ^= BIT7;        //-
+              for(i=90000;i>0;i--);
+              P4OUT ^= BIT7;
+              for(i=30000;i>0;i--);
+              P4OUT ^= BIT7;        //-
+              for(i=90000;i>0;i--);
+              P4OUT ^= BIT7;
+              for(i=30000;i>0;i--);
+              P4OUT ^= BIT7;        //-
+              for(i=90000;i>0;i--);
+              P4OUT ^= BIT7;
+              for(i=30000;i>0;i--);
+              P4OUT ^= BIT7;        //-
+              for(i=90000;i>0;i--);
+              P4OUT ^= BIT7;
+              for(i=30000;i>0;i--);
+              P4OUT ^= BIT7;        //-
+              for(i=90000;i>0;i--);
+              P4OUT ^= BIT7;
+              for(i=30000;i>0;i--);
+              P4OUT &= ~BIT7;       //break
+              __delay_cycles(210000);
+            break;
+
+              default : //error checking
+                  P4OUT=BIT7; //sets green led to stay on
+                  P1OUT=BIT0; //sets red led to stay on
+                  break;
+}
+}
+}

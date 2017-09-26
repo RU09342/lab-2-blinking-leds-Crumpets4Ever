@@ -1,0 +1,53 @@
+#include <msp430.h>
+
+int main(void)
+{
+  //volatile unsigned int i;
+ // volatile unsigned int j;
+  WDTCTL = WDTPW+WDTHOLD;                   // Stop WDT
+  P1DIR |=BIT0;
+  P4DIR |= BIT7;                            // P1.0 set as output
+
+  P1OUT &= ~BIT0;
+  P4OUT &= ~BIT7;
+  while(1)                                  // continuous loop
+  {
+ // sos blink
+ // s delay
+
+   P4OUT ^= BIT7;
+   __delay_cycles(100000);
+   P4OUT ^= BIT7;
+   __delay_cycles(100000);
+   P4OUT ^= BIT7;
+   __delay_cycles(100000);
+   //P4OUT &= ~BIT7L
+
+
+
+   P1OUT ^= BIT0;
+
+   __delay_cycles(200000);
+   P1OUT ^= BIT0;
+   __delay_cycles(200000);
+   P1OUT ^= BIT0;
+   __delay_cycles(200000);
+   P1OUT ^= BIT0;
+   __delay_cycles(200000);
+   P1OUT ^= BIT0;
+      __delay_cycles(200000);
+      P1OUT ^= BIT0;
+         __delay_cycles(200000);
+         P1OUT ^= BIT0;
+
+
+
+   P4OUT ^= BIT7;
+   __delay_cycles(100000);
+   P4OUT ^= BIT7;
+   __delay_cycles(100000);
+   P4OUT ^= BIT7;
+   __delay_cycles(100000);
+
+  }
+}

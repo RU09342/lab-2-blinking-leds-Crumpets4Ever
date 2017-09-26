@@ -1,0 +1,26 @@
+#include <msp430.h>
+
+int main(void)
+{
+  // unsigned int i;
+  //volatile unsigned int j;
+  WDTCTL = WDTPW+WDTHOLD;                   // Stop WDT
+  P1DIR &= ~BIT1;
+  P1REN |= BIT1;
+  P1OUT ^= BIT1;
+
+  while(1)
+  {
+      if(P1IN&BIT1)
+      {
+          P1OUT ^= BIT0;
+          P4OUT &= ~BIT7;
+      }
+      if(!(P1IN&BIT1))
+      {
+          P4OUT ^= BIT7;
+          P1OUT &=~BIT0;
+      }
+  }
+
+}

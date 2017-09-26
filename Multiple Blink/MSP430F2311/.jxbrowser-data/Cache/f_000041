@@ -1,0 +1,402 @@
+[
+  {
+    "text": "MSP430FR5720",
+    "type": "folder",
+    "numChildren": 3,
+    "numChildrenLocal": 0,
+    "children": true,
+    "allowPartialDownload": false,
+    "_downloadLink": "api/bundle?vid=msp430_devices__3.80.01.01&download=true",
+    "_makeofflineLink": "api/bundles?vids=msp430_devices__3.80.01.01",
+    "_removeofflineLink": "api/resources?package=c2000ware_devices_package__1.00.01.00::cc13x0_devices__1.00.00.0002::cc13xx_devtools__1.00.00.0002::cc26x0_devices__1.00.00.0002::cc26xx_devtools__1.00.00.0001::cc32xx_devices__1.00.00.00::cc32xx_devtools__1.00.00.00::ccs_devtools__1.00.00.12::com.ti.mmwave_devices__1.0.0::com.ti.mmwave_devtools__0.2.0::msp430_devices__3.80.01.01::msp430_devtools__3.80.01.01::msp432_devices__1.10.00.15::msp432_devtools__1.10.00.15::mspdevtools__1.00.00.40::sdtoutilities__1.00.00.05::sitara_devices__1.00.00.00::sitara_devtools__1.00.00.00::tivac_devices__1.00.00.00::tivac_devtools__1.00.00.00::xdsdebugprobes__1.00.00.03&path=Device Documentation/MSP430FR57XX/MSP430FR5720&removeoffline=true",
+    "state": {
+      "opened": false
+    },
+    "package": "MSP430 Device Documents",
+    "packageUId": "msp430_devices__3.80.01.01",
+    "url": "/api/resources?path=Device%20Documentation/MSP430FR57XX&package=",
+    "overviewDescription": "MSP430FR57xx 16-bit Microcontroller Series featuring Embedded FRAM - Welcome to the future of embedded memory</b> - These devices feature embedded FRAM, which enables 1000x faster write speeds and 250x lower power when compared to Flash-based devices. This new family of devices also provides the lowest active power consumption. Devices operate up to 24MHz.",
+    "overviewImage": "tirex-product-tree/msp430_devices_3_80_01_01/.metadata/.tirex/images/msp430fr57xx_square.png",
+    "packageOrder": 89
+  },
+  {
+    "text": "MSP430FR5721",
+    "type": "folder",
+    "numChildren": 3,
+    "numChildrenLocal": 0,
+    "children": true,
+    "allowPartialDownload": false,
+    "_downloadLink": "api/bundle?vid=msp430_devices__3.80.01.01&download=true",
+    "_makeofflineLink": "api/bundles?vids=msp430_devices__3.80.01.01",
+    "_removeofflineLink": "api/resources?package=c2000ware_devices_package__1.00.01.00::cc13x0_devices__1.00.00.0002::cc13xx_devtools__1.00.00.0002::cc26x0_devices__1.00.00.0002::cc26xx_devtools__1.00.00.0001::cc32xx_devices__1.00.00.00::cc32xx_devtools__1.00.00.00::ccs_devtools__1.00.00.12::com.ti.mmwave_devices__1.0.0::com.ti.mmwave_devtools__0.2.0::msp430_devices__3.80.01.01::msp430_devtools__3.80.01.01::msp432_devices__1.10.00.15::msp432_devtools__1.10.00.15::mspdevtools__1.00.00.40::sdtoutilities__1.00.00.05::sitara_devices__1.00.00.00::sitara_devtools__1.00.00.00::tivac_devices__1.00.00.00::tivac_devtools__1.00.00.00::xdsdebugprobes__1.00.00.03&path=Device Documentation/MSP430FR57XX/MSP430FR5721&removeoffline=true",
+    "state": {
+      "opened": false
+    },
+    "package": "MSP430 Device Documents",
+    "packageUId": "msp430_devices__3.80.01.01",
+    "url": "/api/resources?path=Device%20Documentation/MSP430FR57XX&package=",
+    "overviewDescription": "MSP430FR57xx 16-bit Microcontroller Series featuring Embedded FRAM - Welcome to the future of embedded memory</b> - These devices feature embedded FRAM, which enables 1000x faster write speeds and 250x lower power when compared to Flash-based devices. This new family of devices also provides the lowest active power consumption. Devices operate up to 24MHz.",
+    "overviewImage": "tirex-product-tree/msp430_devices_3_80_01_01/.metadata/.tirex/images/msp430fr57xx_square.png",
+    "packageOrder": 89
+  },
+  {
+    "text": "MSP430FR5722",
+    "type": "folder",
+    "numChildren": 3,
+    "numChildrenLocal": 0,
+    "children": true,
+    "allowPartialDownload": false,
+    "_downloadLink": "api/bundle?vid=msp430_devices__3.80.01.01&download=true",
+    "_makeofflineLink": "api/bundles?vids=msp430_devices__3.80.01.01",
+    "_removeofflineLink": "api/resources?package=c2000ware_devices_package__1.00.01.00::cc13x0_devices__1.00.00.0002::cc13xx_devtools__1.00.00.0002::cc26x0_devices__1.00.00.0002::cc26xx_devtools__1.00.00.0001::cc32xx_devices__1.00.00.00::cc32xx_devtools__1.00.00.00::ccs_devtools__1.00.00.12::com.ti.mmwave_devices__1.0.0::com.ti.mmwave_devtools__0.2.0::msp430_devices__3.80.01.01::msp430_devtools__3.80.01.01::msp432_devices__1.10.00.15::msp432_devtools__1.10.00.15::mspdevtools__1.00.00.40::sdtoutilities__1.00.00.05::sitara_devices__1.00.00.00::sitara_devtools__1.00.00.00::tivac_devices__1.00.00.00::tivac_devtools__1.00.00.00::xdsdebugprobes__1.00.00.03&path=Device Documentation/MSP430FR57XX/MSP430FR5722&removeoffline=true",
+    "state": {
+      "opened": false
+    },
+    "package": "MSP430 Device Documents",
+    "packageUId": "msp430_devices__3.80.01.01",
+    "url": "/api/resources?path=Device%20Documentation/MSP430FR57XX&package=",
+    "overviewDescription": "MSP430FR57xx 16-bit Microcontroller Series featuring Embedded FRAM - Welcome to the future of embedded memory</b> - These devices feature embedded FRAM, which enables 1000x faster write speeds and 250x lower power when compared to Flash-based devices. This new family of devices also provides the lowest active power consumption. Devices operate up to 24MHz.",
+    "overviewImage": "tirex-product-tree/msp430_devices_3_80_01_01/.metadata/.tirex/images/msp430fr57xx_square.png",
+    "packageOrder": 89
+  },
+  {
+    "text": "MSP430FR5723",
+    "type": "folder",
+    "numChildren": 3,
+    "numChildrenLocal": 0,
+    "children": true,
+    "allowPartialDownload": false,
+    "_downloadLink": "api/bundle?vid=msp430_devices__3.80.01.01&download=true",
+    "_makeofflineLink": "api/bundles?vids=msp430_devices__3.80.01.01",
+    "_removeofflineLink": "api/resources?package=c2000ware_devices_package__1.00.01.00::cc13x0_devices__1.00.00.0002::cc13xx_devtools__1.00.00.0002::cc26x0_devices__1.00.00.0002::cc26xx_devtools__1.00.00.0001::cc32xx_devices__1.00.00.00::cc32xx_devtools__1.00.00.00::ccs_devtools__1.00.00.12::com.ti.mmwave_devices__1.0.0::com.ti.mmwave_devtools__0.2.0::msp430_devices__3.80.01.01::msp430_devtools__3.80.01.01::msp432_devices__1.10.00.15::msp432_devtools__1.10.00.15::mspdevtools__1.00.00.40::sdtoutilities__1.00.00.05::sitara_devices__1.00.00.00::sitara_devtools__1.00.00.00::tivac_devices__1.00.00.00::tivac_devtools__1.00.00.00::xdsdebugprobes__1.00.00.03&path=Device Documentation/MSP430FR57XX/MSP430FR5723&removeoffline=true",
+    "state": {
+      "opened": false
+    },
+    "package": "MSP430 Device Documents",
+    "packageUId": "msp430_devices__3.80.01.01",
+    "url": "/api/resources?path=Device%20Documentation/MSP430FR57XX&package=",
+    "overviewDescription": "MSP430FR57xx 16-bit Microcontroller Series featuring Embedded FRAM - Welcome to the future of embedded memory</b> - These devices feature embedded FRAM, which enables 1000x faster write speeds and 250x lower power when compared to Flash-based devices. This new family of devices also provides the lowest active power consumption. Devices operate up to 24MHz.",
+    "overviewImage": "tirex-product-tree/msp430_devices_3_80_01_01/.metadata/.tirex/images/msp430fr57xx_square.png",
+    "packageOrder": 89
+  },
+  {
+    "text": "MSP430FR5724",
+    "type": "folder",
+    "numChildren": 3,
+    "numChildrenLocal": 0,
+    "children": true,
+    "allowPartialDownload": false,
+    "_downloadLink": "api/bundle?vid=msp430_devices__3.80.01.01&download=true",
+    "_makeofflineLink": "api/bundles?vids=msp430_devices__3.80.01.01",
+    "_removeofflineLink": "api/resources?package=c2000ware_devices_package__1.00.01.00::cc13x0_devices__1.00.00.0002::cc13xx_devtools__1.00.00.0002::cc26x0_devices__1.00.00.0002::cc26xx_devtools__1.00.00.0001::cc32xx_devices__1.00.00.00::cc32xx_devtools__1.00.00.00::ccs_devtools__1.00.00.12::com.ti.mmwave_devices__1.0.0::com.ti.mmwave_devtools__0.2.0::msp430_devices__3.80.01.01::msp430_devtools__3.80.01.01::msp432_devices__1.10.00.15::msp432_devtools__1.10.00.15::mspdevtools__1.00.00.40::sdtoutilities__1.00.00.05::sitara_devices__1.00.00.00::sitara_devtools__1.00.00.00::tivac_devices__1.00.00.00::tivac_devtools__1.00.00.00::xdsdebugprobes__1.00.00.03&path=Device Documentation/MSP430FR57XX/MSP430FR5724&removeoffline=true",
+    "state": {
+      "opened": false
+    },
+    "package": "MSP430 Device Documents",
+    "packageUId": "msp430_devices__3.80.01.01",
+    "url": "/api/resources?path=Device%20Documentation/MSP430FR57XX&package=",
+    "overviewDescription": "MSP430FR57xx 16-bit Microcontroller Series featuring Embedded FRAM - Welcome to the future of embedded memory</b> - These devices feature embedded FRAM, which enables 1000x faster write speeds and 250x lower power when compared to Flash-based devices. This new family of devices also provides the lowest active power consumption. Devices operate up to 24MHz.",
+    "overviewImage": "tirex-product-tree/msp430_devices_3_80_01_01/.metadata/.tirex/images/msp430fr57xx_square.png",
+    "packageOrder": 89
+  },
+  {
+    "text": "MSP430FR5725",
+    "type": "folder",
+    "numChildren": 3,
+    "numChildrenLocal": 0,
+    "children": true,
+    "allowPartialDownload": false,
+    "_downloadLink": "api/bundle?vid=msp430_devices__3.80.01.01&download=true",
+    "_makeofflineLink": "api/bundles?vids=msp430_devices__3.80.01.01",
+    "_removeofflineLink": "api/resources?package=c2000ware_devices_package__1.00.01.00::cc13x0_devices__1.00.00.0002::cc13xx_devtools__1.00.00.0002::cc26x0_devices__1.00.00.0002::cc26xx_devtools__1.00.00.0001::cc32xx_devices__1.00.00.00::cc32xx_devtools__1.00.00.00::ccs_devtools__1.00.00.12::com.ti.mmwave_devices__1.0.0::com.ti.mmwave_devtools__0.2.0::msp430_devices__3.80.01.01::msp430_devtools__3.80.01.01::msp432_devices__1.10.00.15::msp432_devtools__1.10.00.15::mspdevtools__1.00.00.40::sdtoutilities__1.00.00.05::sitara_devices__1.00.00.00::sitara_devtools__1.00.00.00::tivac_devices__1.00.00.00::tivac_devtools__1.00.00.00::xdsdebugprobes__1.00.00.03&path=Device Documentation/MSP430FR57XX/MSP430FR5725&removeoffline=true",
+    "state": {
+      "opened": false
+    },
+    "package": "MSP430 Device Documents",
+    "packageUId": "msp430_devices__3.80.01.01",
+    "url": "/api/resources?path=Device%20Documentation/MSP430FR57XX&package=",
+    "overviewDescription": "MSP430FR57xx 16-bit Microcontroller Series featuring Embedded FRAM - Welcome to the future of embedded memory</b> - These devices feature embedded FRAM, which enables 1000x faster write speeds and 250x lower power when compared to Flash-based devices. This new family of devices also provides the lowest active power consumption. Devices operate up to 24MHz.",
+    "overviewImage": "tirex-product-tree/msp430_devices_3_80_01_01/.metadata/.tirex/images/msp430fr57xx_square.png",
+    "packageOrder": 89
+  },
+  {
+    "text": "MSP430FR5726",
+    "type": "folder",
+    "numChildren": 3,
+    "numChildrenLocal": 0,
+    "children": true,
+    "allowPartialDownload": false,
+    "_downloadLink": "api/bundle?vid=msp430_devices__3.80.01.01&download=true",
+    "_makeofflineLink": "api/bundles?vids=msp430_devices__3.80.01.01",
+    "_removeofflineLink": "api/resources?package=c2000ware_devices_package__1.00.01.00::cc13x0_devices__1.00.00.0002::cc13xx_devtools__1.00.00.0002::cc26x0_devices__1.00.00.0002::cc26xx_devtools__1.00.00.0001::cc32xx_devices__1.00.00.00::cc32xx_devtools__1.00.00.00::ccs_devtools__1.00.00.12::com.ti.mmwave_devices__1.0.0::com.ti.mmwave_devtools__0.2.0::msp430_devices__3.80.01.01::msp430_devtools__3.80.01.01::msp432_devices__1.10.00.15::msp432_devtools__1.10.00.15::mspdevtools__1.00.00.40::sdtoutilities__1.00.00.05::sitara_devices__1.00.00.00::sitara_devtools__1.00.00.00::tivac_devices__1.00.00.00::tivac_devtools__1.00.00.00::xdsdebugprobes__1.00.00.03&path=Device Documentation/MSP430FR57XX/MSP430FR5726&removeoffline=true",
+    "state": {
+      "opened": false
+    },
+    "package": "MSP430 Device Documents",
+    "packageUId": "msp430_devices__3.80.01.01",
+    "url": "/api/resources?path=Device%20Documentation/MSP430FR57XX&package=",
+    "overviewDescription": "MSP430FR57xx 16-bit Microcontroller Series featuring Embedded FRAM - Welcome to the future of embedded memory</b> - These devices feature embedded FRAM, which enables 1000x faster write speeds and 250x lower power when compared to Flash-based devices. This new family of devices also provides the lowest active power consumption. Devices operate up to 24MHz.",
+    "overviewImage": "tirex-product-tree/msp430_devices_3_80_01_01/.metadata/.tirex/images/msp430fr57xx_square.png",
+    "packageOrder": 89
+  },
+  {
+    "text": "MSP430FR5727",
+    "type": "folder",
+    "numChildren": 3,
+    "numChildrenLocal": 0,
+    "children": true,
+    "allowPartialDownload": false,
+    "_downloadLink": "api/bundle?vid=msp430_devices__3.80.01.01&download=true",
+    "_makeofflineLink": "api/bundles?vids=msp430_devices__3.80.01.01",
+    "_removeofflineLink": "api/resources?package=c2000ware_devices_package__1.00.01.00::cc13x0_devices__1.00.00.0002::cc13xx_devtools__1.00.00.0002::cc26x0_devices__1.00.00.0002::cc26xx_devtools__1.00.00.0001::cc32xx_devices__1.00.00.00::cc32xx_devtools__1.00.00.00::ccs_devtools__1.00.00.12::com.ti.mmwave_devices__1.0.0::com.ti.mmwave_devtools__0.2.0::msp430_devices__3.80.01.01::msp430_devtools__3.80.01.01::msp432_devices__1.10.00.15::msp432_devtools__1.10.00.15::mspdevtools__1.00.00.40::sdtoutilities__1.00.00.05::sitara_devices__1.00.00.00::sitara_devtools__1.00.00.00::tivac_devices__1.00.00.00::tivac_devtools__1.00.00.00::xdsdebugprobes__1.00.00.03&path=Device Documentation/MSP430FR57XX/MSP430FR5727&removeoffline=true",
+    "state": {
+      "opened": false
+    },
+    "package": "MSP430 Device Documents",
+    "packageUId": "msp430_devices__3.80.01.01",
+    "url": "/api/resources?path=Device%20Documentation/MSP430FR57XX&package=",
+    "overviewDescription": "MSP430FR57xx 16-bit Microcontroller Series featuring Embedded FRAM - Welcome to the future of embedded memory</b> - These devices feature embedded FRAM, which enables 1000x faster write speeds and 250x lower power when compared to Flash-based devices. This new family of devices also provides the lowest active power consumption. Devices operate up to 24MHz.",
+    "overviewImage": "tirex-product-tree/msp430_devices_3_80_01_01/.metadata/.tirex/images/msp430fr57xx_square.png",
+    "packageOrder": 89
+  },
+  {
+    "text": "MSP430FR5728",
+    "type": "folder",
+    "numChildren": 3,
+    "numChildrenLocal": 0,
+    "children": true,
+    "allowPartialDownload": false,
+    "_downloadLink": "api/bundle?vid=msp430_devices__3.80.01.01&download=true",
+    "_makeofflineLink": "api/bundles?vids=msp430_devices__3.80.01.01",
+    "_removeofflineLink": "api/resources?package=c2000ware_devices_package__1.00.01.00::cc13x0_devices__1.00.00.0002::cc13xx_devtools__1.00.00.0002::cc26x0_devices__1.00.00.0002::cc26xx_devtools__1.00.00.0001::cc32xx_devices__1.00.00.00::cc32xx_devtools__1.00.00.00::ccs_devtools__1.00.00.12::com.ti.mmwave_devices__1.0.0::com.ti.mmwave_devtools__0.2.0::msp430_devices__3.80.01.01::msp430_devtools__3.80.01.01::msp432_devices__1.10.00.15::msp432_devtools__1.10.00.15::mspdevtools__1.00.00.40::sdtoutilities__1.00.00.05::sitara_devices__1.00.00.00::sitara_devtools__1.00.00.00::tivac_devices__1.00.00.00::tivac_devtools__1.00.00.00::xdsdebugprobes__1.00.00.03&path=Device Documentation/MSP430FR57XX/MSP430FR5728&removeoffline=true",
+    "state": {
+      "opened": false
+    },
+    "package": "MSP430 Device Documents",
+    "packageUId": "msp430_devices__3.80.01.01",
+    "url": "/api/resources?path=Device%20Documentation/MSP430FR57XX&package=",
+    "overviewDescription": "MSP430FR57xx 16-bit Microcontroller Series featuring Embedded FRAM - Welcome to the future of embedded memory</b> - These devices feature embedded FRAM, which enables 1000x faster write speeds and 250x lower power when compared to Flash-based devices. This new family of devices also provides the lowest active power consumption. Devices operate up to 24MHz.",
+    "overviewImage": "tirex-product-tree/msp430_devices_3_80_01_01/.metadata/.tirex/images/msp430fr57xx_square.png",
+    "packageOrder": 89
+  },
+  {
+    "text": "MSP430FR5729",
+    "type": "folder",
+    "numChildren": 3,
+    "numChildrenLocal": 0,
+    "children": true,
+    "allowPartialDownload": false,
+    "_downloadLink": "api/bundle?vid=msp430_devices__3.80.01.01&download=true",
+    "_makeofflineLink": "api/bundles?vids=msp430_devices__3.80.01.01",
+    "_removeofflineLink": "api/resources?package=c2000ware_devices_package__1.00.01.00::cc13x0_devices__1.00.00.0002::cc13xx_devtools__1.00.00.0002::cc26x0_devices__1.00.00.0002::cc26xx_devtools__1.00.00.0001::cc32xx_devices__1.00.00.00::cc32xx_devtools__1.00.00.00::ccs_devtools__1.00.00.12::com.ti.mmwave_devices__1.0.0::com.ti.mmwave_devtools__0.2.0::msp430_devices__3.80.01.01::msp430_devtools__3.80.01.01::msp432_devices__1.10.00.15::msp432_devtools__1.10.00.15::mspdevtools__1.00.00.40::sdtoutilities__1.00.00.05::sitara_devices__1.00.00.00::sitara_devtools__1.00.00.00::tivac_devices__1.00.00.00::tivac_devtools__1.00.00.00::xdsdebugprobes__1.00.00.03&path=Device Documentation/MSP430FR57XX/MSP430FR5729&removeoffline=true",
+    "state": {
+      "opened": false
+    },
+    "package": "MSP430 Device Documents",
+    "packageUId": "msp430_devices__3.80.01.01",
+    "url": "/api/resources?path=Device%20Documentation/MSP430FR57XX&package=",
+    "overviewDescription": "MSP430FR57xx 16-bit Microcontroller Series featuring Embedded FRAM - Welcome to the future of embedded memory</b> - These devices feature embedded FRAM, which enables 1000x faster write speeds and 250x lower power when compared to Flash-based devices. This new family of devices also provides the lowest active power consumption. Devices operate up to 24MHz.",
+    "overviewImage": "tirex-product-tree/msp430_devices_3_80_01_01/.metadata/.tirex/images/msp430fr57xx_square.png",
+    "packageOrder": 89
+  },
+  {
+    "text": "MSP430FR5730",
+    "type": "folder",
+    "numChildren": 3,
+    "numChildrenLocal": 0,
+    "children": true,
+    "allowPartialDownload": false,
+    "_downloadLink": "api/bundle?vid=msp430_devices__3.80.01.01&download=true",
+    "_makeofflineLink": "api/bundles?vids=msp430_devices__3.80.01.01",
+    "_removeofflineLink": "api/resources?package=c2000ware_devices_package__1.00.01.00::cc13x0_devices__1.00.00.0002::cc13xx_devtools__1.00.00.0002::cc26x0_devices__1.00.00.0002::cc26xx_devtools__1.00.00.0001::cc32xx_devices__1.00.00.00::cc32xx_devtools__1.00.00.00::ccs_devtools__1.00.00.12::com.ti.mmwave_devices__1.0.0::com.ti.mmwave_devtools__0.2.0::msp430_devices__3.80.01.01::msp430_devtools__3.80.01.01::msp432_devices__1.10.00.15::msp432_devtools__1.10.00.15::mspdevtools__1.00.00.40::sdtoutilities__1.00.00.05::sitara_devices__1.00.00.00::sitara_devtools__1.00.00.00::tivac_devices__1.00.00.00::tivac_devtools__1.00.00.00::xdsdebugprobes__1.00.00.03&path=Device Documentation/MSP430FR57XX/MSP430FR5730&removeoffline=true",
+    "state": {
+      "opened": false
+    },
+    "package": "MSP430 Device Documents",
+    "packageUId": "msp430_devices__3.80.01.01",
+    "url": "/api/resources?path=Device%20Documentation/MSP430FR57XX&package=",
+    "overviewDescription": "MSP430FR57xx 16-bit Microcontroller Series featuring Embedded FRAM - Welcome to the future of embedded memory</b> - These devices feature embedded FRAM, which enables 1000x faster write speeds and 250x lower power when compared to Flash-based devices. This new family of devices also provides the lowest active power consumption. Devices operate up to 24MHz.",
+    "overviewImage": "tirex-product-tree/msp430_devices_3_80_01_01/.metadata/.tirex/images/msp430fr57xx_square.png",
+    "packageOrder": 89
+  },
+  {
+    "text": "MSP430FR5731",
+    "type": "folder",
+    "numChildren": 3,
+    "numChildrenLocal": 0,
+    "children": true,
+    "allowPartialDownload": false,
+    "_downloadLink": "api/bundle?vid=msp430_devices__3.80.01.01&download=true",
+    "_makeofflineLink": "api/bundles?vids=msp430_devices__3.80.01.01",
+    "_removeofflineLink": "api/resources?package=c2000ware_devices_package__1.00.01.00::cc13x0_devices__1.00.00.0002::cc13xx_devtools__1.00.00.0002::cc26x0_devices__1.00.00.0002::cc26xx_devtools__1.00.00.0001::cc32xx_devices__1.00.00.00::cc32xx_devtools__1.00.00.00::ccs_devtools__1.00.00.12::com.ti.mmwave_devices__1.0.0::com.ti.mmwave_devtools__0.2.0::msp430_devices__3.80.01.01::msp430_devtools__3.80.01.01::msp432_devices__1.10.00.15::msp432_devtools__1.10.00.15::mspdevtools__1.00.00.40::sdtoutilities__1.00.00.05::sitara_devices__1.00.00.00::sitara_devtools__1.00.00.00::tivac_devices__1.00.00.00::tivac_devtools__1.00.00.00::xdsdebugprobes__1.00.00.03&path=Device Documentation/MSP430FR57XX/MSP430FR5731&removeoffline=true",
+    "state": {
+      "opened": false
+    },
+    "package": "MSP430 Device Documents",
+    "packageUId": "msp430_devices__3.80.01.01",
+    "url": "/api/resources?path=Device%20Documentation/MSP430FR57XX&package=",
+    "overviewDescription": "MSP430FR57xx 16-bit Microcontroller Series featuring Embedded FRAM - Welcome to the future of embedded memory</b> - These devices feature embedded FRAM, which enables 1000x faster write speeds and 250x lower power when compared to Flash-based devices. This new family of devices also provides the lowest active power consumption. Devices operate up to 24MHz.",
+    "overviewImage": "tirex-product-tree/msp430_devices_3_80_01_01/.metadata/.tirex/images/msp430fr57xx_square.png",
+    "packageOrder": 89
+  },
+  {
+    "text": "MSP430FR5732",
+    "type": "folder",
+    "numChildren": 3,
+    "numChildrenLocal": 0,
+    "children": true,
+    "allowPartialDownload": false,
+    "_downloadLink": "api/bundle?vid=msp430_devices__3.80.01.01&download=true",
+    "_makeofflineLink": "api/bundles?vids=msp430_devices__3.80.01.01",
+    "_removeofflineLink": "api/resources?package=c2000ware_devices_package__1.00.01.00::cc13x0_devices__1.00.00.0002::cc13xx_devtools__1.00.00.0002::cc26x0_devices__1.00.00.0002::cc26xx_devtools__1.00.00.0001::cc32xx_devices__1.00.00.00::cc32xx_devtools__1.00.00.00::ccs_devtools__1.00.00.12::com.ti.mmwave_devices__1.0.0::com.ti.mmwave_devtools__0.2.0::msp430_devices__3.80.01.01::msp430_devtools__3.80.01.01::msp432_devices__1.10.00.15::msp432_devtools__1.10.00.15::mspdevtools__1.00.00.40::sdtoutilities__1.00.00.05::sitara_devices__1.00.00.00::sitara_devtools__1.00.00.00::tivac_devices__1.00.00.00::tivac_devtools__1.00.00.00::xdsdebugprobes__1.00.00.03&path=Device Documentation/MSP430FR57XX/MSP430FR5732&removeoffline=true",
+    "state": {
+      "opened": false
+    },
+    "package": "MSP430 Device Documents",
+    "packageUId": "msp430_devices__3.80.01.01",
+    "url": "/api/resources?path=Device%20Documentation/MSP430FR57XX&package=",
+    "overviewDescription": "MSP430FR57xx 16-bit Microcontroller Series featuring Embedded FRAM - Welcome to the future of embedded memory</b> - These devices feature embedded FRAM, which enables 1000x faster write speeds and 250x lower power when compared to Flash-based devices. This new family of devices also provides the lowest active power consumption. Devices operate up to 24MHz.",
+    "overviewImage": "tirex-product-tree/msp430_devices_3_80_01_01/.metadata/.tirex/images/msp430fr57xx_square.png",
+    "packageOrder": 89
+  },
+  {
+    "text": "MSP430FR5733",
+    "type": "folder",
+    "numChildren": 3,
+    "numChildrenLocal": 0,
+    "children": true,
+    "allowPartialDownload": false,
+    "_downloadLink": "api/bundle?vid=msp430_devices__3.80.01.01&download=true",
+    "_makeofflineLink": "api/bundles?vids=msp430_devices__3.80.01.01",
+    "_removeofflineLink": "api/resources?package=c2000ware_devices_package__1.00.01.00::cc13x0_devices__1.00.00.0002::cc13xx_devtools__1.00.00.0002::cc26x0_devices__1.00.00.0002::cc26xx_devtools__1.00.00.0001::cc32xx_devices__1.00.00.00::cc32xx_devtools__1.00.00.00::ccs_devtools__1.00.00.12::com.ti.mmwave_devices__1.0.0::com.ti.mmwave_devtools__0.2.0::msp430_devices__3.80.01.01::msp430_devtools__3.80.01.01::msp432_devices__1.10.00.15::msp432_devtools__1.10.00.15::mspdevtools__1.00.00.40::sdtoutilities__1.00.00.05::sitara_devices__1.00.00.00::sitara_devtools__1.00.00.00::tivac_devices__1.00.00.00::tivac_devtools__1.00.00.00::xdsdebugprobes__1.00.00.03&path=Device Documentation/MSP430FR57XX/MSP430FR5733&removeoffline=true",
+    "state": {
+      "opened": false
+    },
+    "package": "MSP430 Device Documents",
+    "packageUId": "msp430_devices__3.80.01.01",
+    "url": "/api/resources?path=Device%20Documentation/MSP430FR57XX&package=",
+    "overviewDescription": "MSP430FR57xx 16-bit Microcontroller Series featuring Embedded FRAM - Welcome to the future of embedded memory</b> - These devices feature embedded FRAM, which enables 1000x faster write speeds and 250x lower power when compared to Flash-based devices. This new family of devices also provides the lowest active power consumption. Devices operate up to 24MHz.",
+    "overviewImage": "tirex-product-tree/msp430_devices_3_80_01_01/.metadata/.tirex/images/msp430fr57xx_square.png",
+    "packageOrder": 89
+  },
+  {
+    "text": "MSP430FR5734",
+    "type": "folder",
+    "numChildren": 3,
+    "numChildrenLocal": 0,
+    "children": true,
+    "allowPartialDownload": false,
+    "_downloadLink": "api/bundle?vid=msp430_devices__3.80.01.01&download=true",
+    "_makeofflineLink": "api/bundles?vids=msp430_devices__3.80.01.01",
+    "_removeofflineLink": "api/resources?package=c2000ware_devices_package__1.00.01.00::cc13x0_devices__1.00.00.0002::cc13xx_devtools__1.00.00.0002::cc26x0_devices__1.00.00.0002::cc26xx_devtools__1.00.00.0001::cc32xx_devices__1.00.00.00::cc32xx_devtools__1.00.00.00::ccs_devtools__1.00.00.12::com.ti.mmwave_devices__1.0.0::com.ti.mmwave_devtools__0.2.0::msp430_devices__3.80.01.01::msp430_devtools__3.80.01.01::msp432_devices__1.10.00.15::msp432_devtools__1.10.00.15::mspdevtools__1.00.00.40::sdtoutilities__1.00.00.05::sitara_devices__1.00.00.00::sitara_devtools__1.00.00.00::tivac_devices__1.00.00.00::tivac_devtools__1.00.00.00::xdsdebugprobes__1.00.00.03&path=Device Documentation/MSP430FR57XX/MSP430FR5734&removeoffline=true",
+    "state": {
+      "opened": false
+    },
+    "package": "MSP430 Device Documents",
+    "packageUId": "msp430_devices__3.80.01.01",
+    "url": "/api/resources?path=Device%20Documentation/MSP430FR57XX&package=",
+    "overviewDescription": "MSP430FR57xx 16-bit Microcontroller Series featuring Embedded FRAM - Welcome to the future of embedded memory</b> - These devices feature embedded FRAM, which enables 1000x faster write speeds and 250x lower power when compared to Flash-based devices. This new family of devices also provides the lowest active power consumption. Devices operate up to 24MHz.",
+    "overviewImage": "tirex-product-tree/msp430_devices_3_80_01_01/.metadata/.tirex/images/msp430fr57xx_square.png",
+    "packageOrder": 89
+  },
+  {
+    "text": "MSP430FR5735",
+    "type": "folder",
+    "numChildren": 3,
+    "numChildrenLocal": 0,
+    "children": true,
+    "allowPartialDownload": false,
+    "_downloadLink": "api/bundle?vid=msp430_devices__3.80.01.01&download=true",
+    "_makeofflineLink": "api/bundles?vids=msp430_devices__3.80.01.01",
+    "_removeofflineLink": "api/resources?package=c2000ware_devices_package__1.00.01.00::cc13x0_devices__1.00.00.0002::cc13xx_devtools__1.00.00.0002::cc26x0_devices__1.00.00.0002::cc26xx_devtools__1.00.00.0001::cc32xx_devices__1.00.00.00::cc32xx_devtools__1.00.00.00::ccs_devtools__1.00.00.12::com.ti.mmwave_devices__1.0.0::com.ti.mmwave_devtools__0.2.0::msp430_devices__3.80.01.01::msp430_devtools__3.80.01.01::msp432_devices__1.10.00.15::msp432_devtools__1.10.00.15::mspdevtools__1.00.00.40::sdtoutilities__1.00.00.05::sitara_devices__1.00.00.00::sitara_devtools__1.00.00.00::tivac_devices__1.00.00.00::tivac_devtools__1.00.00.00::xdsdebugprobes__1.00.00.03&path=Device Documentation/MSP430FR57XX/MSP430FR5735&removeoffline=true",
+    "state": {
+      "opened": false
+    },
+    "package": "MSP430 Device Documents",
+    "packageUId": "msp430_devices__3.80.01.01",
+    "url": "/api/resources?path=Device%20Documentation/MSP430FR57XX&package=",
+    "overviewDescription": "MSP430FR57xx 16-bit Microcontroller Series featuring Embedded FRAM - Welcome to the future of embedded memory</b> - These devices feature embedded FRAM, which enables 1000x faster write speeds and 250x lower power when compared to Flash-based devices. This new family of devices also provides the lowest active power consumption. Devices operate up to 24MHz.",
+    "overviewImage": "tirex-product-tree/msp430_devices_3_80_01_01/.metadata/.tirex/images/msp430fr57xx_square.png",
+    "packageOrder": 89
+  },
+  {
+    "text": "MSP430FR5736",
+    "type": "folder",
+    "numChildren": 3,
+    "numChildrenLocal": 0,
+    "children": true,
+    "allowPartialDownload": false,
+    "_downloadLink": "api/bundle?vid=msp430_devices__3.80.01.01&download=true",
+    "_makeofflineLink": "api/bundles?vids=msp430_devices__3.80.01.01",
+    "_removeofflineLink": "api/resources?package=c2000ware_devices_package__1.00.01.00::cc13x0_devices__1.00.00.0002::cc13xx_devtools__1.00.00.0002::cc26x0_devices__1.00.00.0002::cc26xx_devtools__1.00.00.0001::cc32xx_devices__1.00.00.00::cc32xx_devtools__1.00.00.00::ccs_devtools__1.00.00.12::com.ti.mmwave_devices__1.0.0::com.ti.mmwave_devtools__0.2.0::msp430_devices__3.80.01.01::msp430_devtools__3.80.01.01::msp432_devices__1.10.00.15::msp432_devtools__1.10.00.15::mspdevtools__1.00.00.40::sdtoutilities__1.00.00.05::sitara_devices__1.00.00.00::sitara_devtools__1.00.00.00::tivac_devices__1.00.00.00::tivac_devtools__1.00.00.00::xdsdebugprobes__1.00.00.03&path=Device Documentation/MSP430FR57XX/MSP430FR5736&removeoffline=true",
+    "state": {
+      "opened": false
+    },
+    "package": "MSP430 Device Documents",
+    "packageUId": "msp430_devices__3.80.01.01",
+    "url": "/api/resources?path=Device%20Documentation/MSP430FR57XX&package=",
+    "overviewDescription": "MSP430FR57xx 16-bit Microcontroller Series featuring Embedded FRAM - Welcome to the future of embedded memory</b> - These devices feature embedded FRAM, which enables 1000x faster write speeds and 250x lower power when compared to Flash-based devices. This new family of devices also provides the lowest active power consumption. Devices operate up to 24MHz.",
+    "overviewImage": "tirex-product-tree/msp430_devices_3_80_01_01/.metadata/.tirex/images/msp430fr57xx_square.png",
+    "packageOrder": 89
+  },
+  {
+    "text": "MSP430FR5737",
+    "type": "folder",
+    "numChildren": 3,
+    "numChildrenLocal": 0,
+    "children": true,
+    "allowPartialDownload": false,
+    "_downloadLink": "api/bundle?vid=msp430_devices__3.80.01.01&download=true",
+    "_makeofflineLink": "api/bundles?vids=msp430_devices__3.80.01.01",
+    "_removeofflineLink": "api/resources?package=c2000ware_devices_package__1.00.01.00::cc13x0_devices__1.00.00.0002::cc13xx_devtools__1.00.00.0002::cc26x0_devices__1.00.00.0002::cc26xx_devtools__1.00.00.0001::cc32xx_devices__1.00.00.00::cc32xx_devtools__1.00.00.00::ccs_devtools__1.00.00.12::com.ti.mmwave_devices__1.0.0::com.ti.mmwave_devtools__0.2.0::msp430_devices__3.80.01.01::msp430_devtools__3.80.01.01::msp432_devices__1.10.00.15::msp432_devtools__1.10.00.15::mspdevtools__1.00.00.40::sdtoutilities__1.00.00.05::sitara_devices__1.00.00.00::sitara_devtools__1.00.00.00::tivac_devices__1.00.00.00::tivac_devtools__1.00.00.00::xdsdebugprobes__1.00.00.03&path=Device Documentation/MSP430FR57XX/MSP430FR5737&removeoffline=true",
+    "state": {
+      "opened": false
+    },
+    "package": "MSP430 Device Documents",
+    "packageUId": "msp430_devices__3.80.01.01",
+    "url": "/api/resources?path=Device%20Documentation/MSP430FR57XX&package=",
+    "overviewDescription": "MSP430FR57xx 16-bit Microcontroller Series featuring Embedded FRAM - Welcome to the future of embedded memory</b> - These devices feature embedded FRAM, which enables 1000x faster write speeds and 250x lower power when compared to Flash-based devices. This new family of devices also provides the lowest active power consumption. Devices operate up to 24MHz.",
+    "overviewImage": "tirex-product-tree/msp430_devices_3_80_01_01/.metadata/.tirex/images/msp430fr57xx_square.png",
+    "packageOrder": 89
+  },
+  {
+    "text": "MSP430FR5738",
+    "type": "folder",
+    "numChildren": 3,
+    "numChildrenLocal": 0,
+    "children": true,
+    "allowPartialDownload": false,
+    "_downloadLink": "api/bundle?vid=msp430_devices__3.80.01.01&download=true",
+    "_makeofflineLink": "api/bundles?vids=msp430_devices__3.80.01.01",
+    "_removeofflineLink": "api/resources?package=c2000ware_devices_package__1.00.01.00::cc13x0_devices__1.00.00.0002::cc13xx_devtools__1.00.00.0002::cc26x0_devices__1.00.00.0002::cc26xx_devtools__1.00.00.0001::cc32xx_devices__1.00.00.00::cc32xx_devtools__1.00.00.00::ccs_devtools__1.00.00.12::com.ti.mmwave_devices__1.0.0::com.ti.mmwave_devtools__0.2.0::msp430_devices__3.80.01.01::msp430_devtools__3.80.01.01::msp432_devices__1.10.00.15::msp432_devtools__1.10.00.15::mspdevtools__1.00.00.40::sdtoutilities__1.00.00.05::sitara_devices__1.00.00.00::sitara_devtools__1.00.00.00::tivac_devices__1.00.00.00::tivac_devtools__1.00.00.00::xdsdebugprobes__1.00.00.03&path=Device Documentation/MSP430FR57XX/MSP430FR5738&removeoffline=true",
+    "state": {
+      "opened": false
+    },
+    "package": "MSP430 Device Documents",
+    "packageUId": "msp430_devices__3.80.01.01",
+    "url": "/api/resources?path=Device%20Documentation/MSP430FR57XX&package=",
+    "overviewDescription": "MSP430FR57xx 16-bit Microcontroller Series featuring Embedded FRAM - Welcome to the future of embedded memory</b> - These devices feature embedded FRAM, which enables 1000x faster write speeds and 250x lower power when compared to Flash-based devices. This new family of devices also provides the lowest active power consumption. Devices operate up to 24MHz.",
+    "overviewImage": "tirex-product-tree/msp430_devices_3_80_01_01/.metadata/.tirex/images/msp430fr57xx_square.png",
+    "packageOrder": 89
+  },
+  {
+    "text": "MSP430FR5739",
+    "type": "folder",
+    "numChildren": 3,
+    "numChildrenLocal": 0,
+    "children": true,
+    "allowPartialDownload": false,
+    "_downloadLink": "api/bundle?vid=msp430_devices__3.80.01.01&download=true",
+    "_makeofflineLink": "api/bundles?vids=msp430_devices__3.80.01.01",
+    "_removeofflineLink": "api/resources?package=c2000ware_devices_package__1.00.01.00::cc13x0_devices__1.00.00.0002::cc13xx_devtools__1.00.00.0002::cc26x0_devices__1.00.00.0002::cc26xx_devtools__1.00.00.0001::cc32xx_devices__1.00.00.00::cc32xx_devtools__1.00.00.00::ccs_devtools__1.00.00.12::com.ti.mmwave_devices__1.0.0::com.ti.mmwave_devtools__0.2.0::msp430_devices__3.80.01.01::msp430_devtools__3.80.01.01::msp432_devices__1.10.00.15::msp432_devtools__1.10.00.15::mspdevtools__1.00.00.40::sdtoutilities__1.00.00.05::sitara_devices__1.00.00.00::sitara_devtools__1.00.00.00::tivac_devices__1.00.00.00::tivac_devtools__1.00.00.00::xdsdebugprobes__1.00.00.03&path=Device Documentation/MSP430FR57XX/MSP430FR5739&removeoffline=true",
+    "state": {
+      "opened": false
+    },
+    "package": "MSP430 Device Documents",
+    "packageUId": "msp430_devices__3.80.01.01",
+    "url": "/api/resources?path=Device%20Documentation/MSP430FR57XX&package=",
+    "overviewDescription": "MSP430FR57xx 16-bit Microcontroller Series featuring Embedded FRAM - Welcome to the future of embedded memory</b> - These devices feature embedded FRAM, which enables 1000x faster write speeds and 250x lower power when compared to Flash-based devices. This new family of devices also provides the lowest active power consumption. Devices operate up to 24MHz.",
+    "overviewImage": "tirex-product-tree/msp430_devices_3_80_01_01/.metadata/.tirex/images/msp430fr57xx_square.png",
+    "packageOrder": 89
+  }
+]

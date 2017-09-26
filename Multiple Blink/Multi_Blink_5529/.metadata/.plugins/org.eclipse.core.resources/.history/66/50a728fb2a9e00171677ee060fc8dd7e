@@ -1,0 +1,143 @@
+#include <msp430.h>
+
+int main(void)
+{
+    P1DIR &= ~BIT1; //Sets button2, pin1.2 as an input
+    P1REN |=  BIT1; //Enables the pullup/down resistor
+    P1OUT |=  BIT1; //Set the resistor to be a pullup resistor
+    P2DIR &= ~BIT1; //Sets button2, pin1.2 as an input
+    P2REN |=  BIT1; //Enables the pullup/down resistor
+    P2OUT |=  BIT1; //Set the resistor to be a pullup resistor
+  //volatile unsigned int i;
+ // volatile unsigned int j;
+  WDTCTL = WDTPW+WDTHOLD;                   // Stop WDT
+  P1DIR |=BIT0;
+  P4DIR |= BIT7;                            // P1.0 set as output
+
+  P1OUT &= ~BIT0;
+  P4OUT &= ~BIT7;
+  while(1)                                  // continuous loop
+  {
+      switch(P1IN&BIT1)
+             {
+             case 0: //when button is pressed
+                P4OUT ^= BIT7; //sets green led to blink
+                P1OUT &= ~BIT0; //sets Red led to not blink
+                 __delay_cycles(100000);//delay
+                 break;
+             case 2://when button is not pressed
+                 //when and'ed together case = 2 since BIT1 = 2
+                 P4OUT ^= BIT7;
+                 __delay_cycles(100000);
+                 P4OUT ^= BIT7;
+                 __delay_cycles(100000);
+                 P4OUT ^= BIT7;
+                 __delay_cycles(100000);
+                 P4OUT ^= BIT7;
+                 __delay_cycles(100000);
+                 P4OUT ^= BIT7;
+                 __delay_cycles(100000);
+                 P4OUT ^= BIT7;
+                 __delay_cycles(100000);
+                 P4OUT &= ~BIT7;
+
+
+
+                 P1OUT ^= BIT0;
+
+                 __delay_cycles(200000);
+                 P1OUT ^= BIT0;
+                 __delay_cycles(200000);
+                 P1OUT ^= BIT0;
+                 __delay_cycles(200000);
+                 P1OUT ^= BIT0;
+                 __delay_cycles(200000);
+                 P1OUT ^= BIT0;
+                 __delay_cycles(200000);
+                 P1OUT ^= BIT0;
+                 __delay_cycles(200000);
+                 P1OUT &= ~BIT0;
+
+
+                       P4OUT ^= BIT7;
+                       __delay_cycles(100000);
+                       P4OUT ^= BIT7;
+                       __delay_cycles(100000);
+                       P4OUT ^= BIT7;
+                       __delay_cycles(100000);
+                       P4OUT ^= BIT7;
+                       __delay_cycles(100000);
+                       P4OUT ^= BIT7;
+                       __delay_cycles(100000);
+                       P4OUT ^= BIT7;
+                       __delay_cycles(100000);
+                       P4OUT &= ~BIT7;
+              __delay_cycles(1000000);
+                break;
+             default : //error checking
+                 P4OUT=BIT7; //sets green led to stay on
+                 P1OUT=BIT0; //sets red led to stay on
+                 break;
+             }
+
+
+
+
+
+
+
+
+ // sos blink
+ // s delay
+
+   P4OUT ^= BIT7;
+   __delay_cycles(100000);
+   P4OUT ^= BIT7;
+   __delay_cycles(100000);
+   P4OUT ^= BIT7;
+   __delay_cycles(100000);
+   P4OUT ^= BIT7;
+   __delay_cycles(100000);
+   P4OUT ^= BIT7;
+   __delay_cycles(100000);
+   P4OUT ^= BIT7;
+   __delay_cycles(100000);
+   P4OUT &= ~BIT7;
+
+
+
+   P1OUT ^= BIT0;
+
+   __delay_cycles(200000);
+   P1OUT ^= BIT0;
+   __delay_cycles(200000);
+   P1OUT ^= BIT0;
+   __delay_cycles(200000);
+   P1OUT ^= BIT0;
+   __delay_cycles(200000);
+   P1OUT ^= BIT0;
+   __delay_cycles(200000);
+   P1OUT ^= BIT0;
+   __delay_cycles(200000);
+   P1OUT &= ~BIT0;
+
+
+         P4OUT ^= BIT7;
+         __delay_cycles(100000);
+         P4OUT ^= BIT7;
+         __delay_cycles(100000);
+         P4OUT ^= BIT7;
+         __delay_cycles(100000);
+         P4OUT ^= BIT7;
+         __delay_cycles(100000);
+         P4OUT ^= BIT7;
+         __delay_cycles(100000);
+         P4OUT ^= BIT7;
+         __delay_cycles(100000);
+         P4OUT &= ~BIT7;
+__delay_cycles(1000000);
+
+
+
+  }
+}
